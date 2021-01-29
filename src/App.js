@@ -4,17 +4,21 @@ import Usestatedemo2 from './components/UseStateDemo2'
 import UseStatedemo3 from './components/UseStateDemo3'
 import UseEffectdemo1 from './components/UseEffectdemo1'
 import UseEffectdemo2 from './components/UseEffectdemo2'
+import UseEffectdemo3 from './components/UseEffectdemo3'
+import UseEffectdemo4 from './components/UseEffectdemo4'
 
 export default function App() {
   const [isShow, setIsShow] = React.useState(true)
   return (
     <div style={{textAlign:"center"}}>
-      {/* <Usestatedemo1/> */}
-      {/* <Usestatedemo2/> */}
-      {/* <UseStatedemo3/> */}
-      {/* <UseEffectdemo1/> */}
+      {/* <Usestatedemo1/>
+      <Usestatedemo2/> 
+      <UseStatedemo3/> */}
+       {/* <UseEffectdemo1/> */}
      {isShow && <UseEffectdemo2/>}
      <button onClick={()=>setIsShow(false)}>Hide</button>
+     <UseEffectdemo3/>
+     <UseEffectdemo4/>
     </div>
   )
 }

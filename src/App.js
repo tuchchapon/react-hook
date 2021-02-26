@@ -13,13 +13,13 @@ export default function App() {
     <div >
       {/* <Usestatedemo1/>
       <Usestatedemo2/> 
-      <UseStatedemo3/> */}
-       {/* <UseEffectdemo1/> */}
-     {/* {isShow && <UseEffectdemo2/>}
-     <button onClick={()=>setIsShow(false)}>Hide</button> */}
-     {/* <UseEffectdemo3/>
-     <UseEffectdemo4/> */}
-     <UseContextdemo1/>
+      <UseStatedemo3/> 
+       <UseEffectdemo1/> */}
+      {/* {isShow && <UseEffectdemo2/>}
+     <button onClick={()=>setIsShow(false)}>Hide</button>  */}
+      {/* <UseEffectdemo3/> */}
+     <UseEffectdemo4/>
+     {/* <UseContextdemo1/> */}
     </div>
   )
 }
